@@ -293,7 +293,7 @@
             };
             abstract.addTo(map);
         var baseMaps = {};
-        L.control.layers(baseMaps,{'<img src="legend/floodcopy_2.png" /> Flood zone': layer_floodcopy_2,'Pct households with water access crisis<br /><table><tr><td style="text-align: center;"><img src="legend/wards_water_1_0960.png" /></td><td>0 - 9.6 </td></tr><tr><td style="text-align: center;"><img src="legend/wards_water_1_962831.png" /></td><td>9.6 - 28.3 </td></tr><tr><td style="text-align: center;"><img src="legend/wards_water_1_2835312.png" /></td><td>28.3 - 53.1 </td></tr><tr><td style="text-align: center;"><img src="legend/wards_water_1_5318433.png" /></td><td>53.1 - 84.3 </td></tr></table>': layer_wards_water_1,"OSM Standard": layer_OSMStandard_0,}).addTo(map);
+        L.control.layers(baseMaps,{'<img src="legend/floodcopy_2.png" /> Flood Zone': layer_floodcopy_2,'Pct households with water access crisis<br /><table><tr><td style="text-align: center;"><img src="legend/wards_water_1_0960.png" /></td><td>0 - 9.6 </td></tr><tr><td style="text-align: center;"><img src="legend/wards_water_1_962831.png" /></td><td>9.6 - 28.3 </td></tr><tr><td style="text-align: center;"><img src="legend/wards_water_1_2835312.png" /></td><td>28.3 - 53.1 </td></tr><tr><td style="text-align: center;"><img src="legend/wards_water_1_5318433.png" /></td><td>53.1 - 84.3 </td></tr></table>': layer_wards_water_1,"OSM Standard": layer_OSMStandard_0,}).addTo(map);
         setBounds();
         resetLabels([layer_wards_water_1]);
         map.on("zoomend", function(){
