@@ -1,1 +1,13 @@
 file_path,file_name,format,sources,metadata,status,date_saved
+data/raw/public,Dar es Salaam Administrative Wards,geojson,Resilience Academy,data/metadata/wards metadata.pdf,acquire,10/7/21
+data/raw/public,Dar es Salaam Flood Scenario 25-200cm,geojson,Resilience Academy,data/metadata/Flood Scenario in Dar es Salaam metadata.pdf,acquire,10/7/21
+data/raw/public,tza_pop_popn_nbs_baselinedata,xlsx,Nation Bureau of Statistics Tanzania,data/metadata/Tanzania population by ward(adm3)-Humanitarian Data Exchange.pdf,acquire,10/7/21
+data/derived/public,flood_divide,gpkg,Emily Zhou,no metadata,derived,10/7/21
+data/derived/public,respoint,gpkg,Emily Zhou,no metadata,derived,10/7/21
+data/derived/public,service_area,gpkg,Emily Zhou,no metadata,derived,10/7/21
+data/derived/public,wards_water,gpkg,Emily Zhou,no metadata,derived,10/7/21
+data/derived/public,wards_water_summary,gpkg,Emily Zhou,no metadata,derived,10/7/21
+data/derived/public,water_access_wards,gpkg,Emily Zhou,no metadata,derived,10/7/21
+data/derived/public,water_amenity,gpkg,Emily Zhou,no metadata,derived,10/7/21
+data/derived/public,waterpoint,gpkg,Emily Zhou,no metadata,derived,10/7/21
+data/derived/waterpoly,gpkg,Emily Zhou,no metadata,derived,10/7/21

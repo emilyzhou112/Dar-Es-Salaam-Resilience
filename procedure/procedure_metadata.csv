@@ -4,3 +4,6 @@ protocol,survey_irb.pdf,Institutional review board protocol for survey sampling 
 protocol,mapworkshop.pdf,participatory mapping workshop protocol
 code,script2.R,run analysis
 code,script3.R,generate visualizations for results
+code,dsm_resilience.sql,run data analysis
+code,dsm_import.bat,import OpenStreetMap data into PostGIS database
+code,dsm.style,run the OSM2PGSQL program
