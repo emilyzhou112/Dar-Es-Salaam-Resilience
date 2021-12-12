@@ -1,2 +1,5 @@
 ﻿file_path,file_name,title,description,type,date
 results/other/qgis2web_2021_10_10-16_18_22_680936,index-copy.html,Leaflet Map,map of water amenity access during flood in Dar es Salaam,html,10/10/2021
+results/figures,dsm_flood-01.jpg,map,map of population density and water accessibility,jpg,10/10/2021
+results/figures,dsm_water_amenity-01.jpg,map,location of water amenities,jpg,10/10/2021
+results/figures,dsm_workflow,workflow,workflow diagram of this analysis,jpg,10/10/2021
