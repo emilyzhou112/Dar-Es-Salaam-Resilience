@@ -38,17 +38,7 @@ CREATE TABLE respoint AS
 SELECT osm_id,  st_transform(way,32737)::geometry(point,32737) as geom, building, amenity
 FROM planet_osm_point
 WHERE amenity IS NULL
-AND building IS NOT NULL;
-
-ALTER TABLE respoint
-ADD COLUMN is_res boolean;
-
-UPDATE respoint
-SET is_res = TRUE
-WHERE building ILIKE 'yes' OR building ILIKE 'residential';
-
-DELETE FROM respoint
-WHERE is_res IS NULL;
+AND (building ILIKE 'yes' OR building ILIKE 'residential')
 
 
 /* Select the OSM polygon features that residential buildings.
@@ -58,17 +48,7 @@ CREATE TABLE respoly AS
 SELECT osm_id,  st_transform(way,32737)::geometry(polygon,32737) as geom, building, amenity
 FROM planet_osm_polygon
 WHERE amenity IS NULL
-AND building IS NOT NULL;
-
-ALTER TABLE respoly
-ADD COLUMN is_res boolean;
-
-UPDATE respoly
-SET is_res = TRUE
-WHERE building ILIKE 'yes' OR building ILIKE 'residential';
-
-DELETE FROM respoly
-WHERE is_res IS NULL;
+AND (building ILIKE 'yes' OR building ILIKE 'residential')
 
 
 /* Create centriod for each feature in respoly.
