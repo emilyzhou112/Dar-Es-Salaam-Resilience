@@ -1,4 +1,4 @@
 Directory,File Name,Purpose
 code,dsm_resilience.sql,run data analysis
 code,dsm_import.bat,import OpenStreetMap data into PostGIS database
-code,dsm.style,run the OSM2PGSQL program
+code,dsm.style,provide options for the OSM2PGSQL program, which is to run dsm_import.bat
